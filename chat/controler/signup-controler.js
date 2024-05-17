@@ -1,4 +1,5 @@
-
+const bcrypt = require('bcrypt');
+const data = require('../database/index-database.js');
 
 class signupcontroler {
 static signup = async(req,res)=>{
