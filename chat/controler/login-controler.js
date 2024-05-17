@@ -1,3 +1,6 @@
+const data = require('../database/index-database.js');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 
 class logincontroler{
   static login   = async(req,res)=>{
