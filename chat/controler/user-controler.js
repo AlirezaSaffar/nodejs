@@ -1,4 +1,5 @@
-
+const datauser = require('../database/user-database.js');
+const data = require('../database/index-database.js');
 
 class usercontroler{
     static upload = async(req,res)=>{
